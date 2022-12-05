@@ -3,13 +3,6 @@ trigger:
 pr:
   - none
 
-resources:
-  repositories:
-    - repository: otherRepo
-      type: github
-      name: TaggartA22/GitHub-Test
-      ref: refs/heads/master
-      endpoint: TaggartA22
 
 parameters:
   - name: enviroment
