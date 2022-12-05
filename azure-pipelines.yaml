@@ -5,7 +5,7 @@ pr:
 
 resources:
   repositories:
-    - repository: 
+    - repository: otherRepo
       type: github
       name: TaggartA22/GitHub-Test
       ref: refs/heads/master
