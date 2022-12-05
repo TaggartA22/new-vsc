@@ -12,4 +12,10 @@ parameters:
 stages:
   - stage: stageTest
     displayName: stageTest
-    
+    jobs:
+      - job: jobTest
+        displayName: jobTest
+        steps:
+          - bash: |
+              echo "## Pipeline runs!"
+
