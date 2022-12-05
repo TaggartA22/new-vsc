@@ -9,3 +9,7 @@ parameters:
       - test
       - prod
       
+stages:
+  - stage: stageTest
+    displayName: stageTest
+    
