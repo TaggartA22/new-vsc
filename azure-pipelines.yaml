@@ -5,11 +5,11 @@ pr:
 
 resources:
   repositories:
-    - repository: templates
+    - repository: 
       type: github
-      name: hmcts/azure-devops-templates
+      name: TaggartA22/GitHub-Test
       ref: refs/heads/master
-      endpoint: hmcts
+      endpoint: TaggartA22
 
 parameters:
   - name: enviroment
